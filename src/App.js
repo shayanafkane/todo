@@ -1,10 +1,11 @@
+import MainPage from "./components/MainPage";
 import "./index.css"
 
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">test</h1>
+      <MainPage />
     </div>
   );
 }
